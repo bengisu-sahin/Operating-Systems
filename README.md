@@ -1,6 +1,8 @@
 # Operating-Systems
 This repository has been opened to learn UNIX commands and understand basic operating system concepts. It includes the projects given in the operating systems laboratory course.
+
 ## Project 1 - UNIX and C Programming
+
 ### Procedure:
   A study path folder is created with the student number (Ex: Desktop/152120151028/). All operations are performed inside this folder via the terminal.
 ### Step 1
@@ -24,6 +26,6 @@ This repository has been opened to learn UNIX commands and understand basic oper
   #### Step 2.8
   The compiled file is run so that the output produced by the program (Ex: 152120151028_uyg1C_output.txt) is directed to the file, and the number of characters in the output file is printed on the screen immediately after each redirect. output file should be.
   #### Step 2.9
-  Çıktı dosyasının tüm içeriği ekrana yazdırılır.
+  The entire content of the output file is printed to the screen.
     
-    ## Project 2 - Process Creation and Execution 
+## Project 2 - Process Creation and Execution
