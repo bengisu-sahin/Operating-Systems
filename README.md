@@ -28,4 +28,6 @@ This repository has been opened to learn UNIX commands and understand basic oper
   #### Step 2.9
   The entire content of the output file is printed to the screen.
     
+![image](https://user-images.githubusercontent.com/71591780/230410990-e7b96c59-bc32-4d0f-8413-2932aa864aa0.png)
+    
 ## Project 2 - Process Creation and Execution
