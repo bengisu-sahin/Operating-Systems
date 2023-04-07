@@ -53,12 +53,12 @@ This repository has been opened to learn UNIX commands and understand basic oper
   ### Step 6  
   Each process must call a maximum of one system function for additional operations other than the wait shown in the figure and requested in the sub-steps. System call results should be kept in the process-based log file (logAll.log), with the information clause (Hint: $ echo) in the top line (Hint: output redirection).
   #### Step 6.1    
-    The parent process creates a folder named logs and a log (logAll.log) file in the directory with the system function containing the relevant command, and prints the date information (Indian: $ date). Then it waits for 1 second for other processes to be created (The purpose of this wait is symbolic and to ensure that other processes occur in an orderly manner according to the specified hierarchy). Then, among the system function that performs the relevant command and the applications running on the operating system at that moment, it prints only the upper process tree with the PID information to the log file under the logs folder and completes the process.
+  The parent process creates a folder named logs and a log (logAll.log) file in the directory with the system function containing the relevant command, and prints the date information (Indian: $ date). Then it waits for 1 second for other processes to be created (The purpose of this wait is symbolic and to ensure that other processes occur in an orderly manner according to the specified hierarchy). Then, among the system function that performs the relevant command and the applications running on the operating system at that moment, it prints only the upper process tree with the PID information to the log file under the logs folder and completes the process.
                Hint: $man pstree $ pstree <options?> <PID>
                Hint: char mychar[size]; sprintf(mychar, "%s %d", dummytext, dummyint); //hybrid string+int to char* in c
   #### Step 6.2  
-    Child1 (depth1) prints the contents of the log file (the results of previous runs will be visible in the file, the current run will also be printed shortly).
+  Child1 (depth1) prints the contents of the log file (the results of previous runs will be visible in the file, the current run will also be printed shortly).
   #### Step 6.3     
-    All other processes except the parent wait 2 seconds after creating the next process according to the depth information (the purpose of these waits is also symbolic and to ensure that the process tree is seen regularly) and completes the process.
-    
-Note: Each of the above-mentioned operations may also have a significance in the ranking. For the correct result, do what is requested in the order in the document.    
+  All other processes except the parent wait 2 seconds after creating the next process according to the depth information (the purpose of these waits is also symbolic and to ensure that the process tree is seen regularly) and completes the process.
+  ##### Note:  
+  Each of the above-mentioned operations may also have a significance in the ranking. For the correct result, do what is requested in the order in the document.    
