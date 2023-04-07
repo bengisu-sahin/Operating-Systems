@@ -7,7 +7,7 @@ This repository has been opened to learn UNIX commands and understand basic oper
   A study path folder is created with the student number (Ex: Desktop/152120151028/). All operations are performed inside this folder via the terminal.
 ### Step 1
   Write the source code (Ex: 152120151028_uyg1C.<language>) that lists the largest prime numbers less than the number received from the user and the smallest prime numbers greater than the same number.
-  ### Step 2
+### Step 2
   Write a .sh script that automates the operations in the sub-steps (Ex: 152120151028_uyg1C.sh). Except for the repeated steps, each of the operations in the sub-steps must be performed with a single-line terminal command.
   #### Step 2.1
   If it doesn't exist, create a folder named tempFiles. If there is a folder with the same name, the relevant command must be created in such a way that it does not cause an error or warning!
@@ -31,3 +31,34 @@ This repository has been opened to learn UNIX commands and understand basic oper
 ![image](https://user-images.githubusercontent.com/71591780/230410990-e7b96c59-bc32-4d0f-8413-2932aa864aa0.png)
     
 ## Project 2 - Process Creation and Execution
+### Procedure:
+  Procedure: Write the code that creates the process tree below.
+  ### Step 1
+  The process tree is deepened according to the numerical value that the user enters as an argument. The parent process has two children, independent of the change of the value entered by the user. Only the side of the tree with Child1 is created according to the depth information.
+  ### Step 2   
+  The user can enter terminal option(s) while running the program (Hint: getopt() <---> #include <unistd.h>). Example: $ ./app2 -o 4
+-i : Student number and name information is printed on the top line of the program. Example: $ ./app2 -i 0
+                Output: 152120151028 @sergenasik wrote this.  
+  ### Step 3  
+  The depth minimum value will be assumed to be 2 for the correct depth setup. Terminal arguments control should be performed accordingly. Hint: int dummyint = atoi(char); //char* to integer in c  
+  ### Step 4  
+  Each process must print the process ID of itself and its parent.  
+  ### Step 5  
+  There should be a minimum number of fork() system call lines in the source code.
+        ❖ Invalid example #1:
+             myFunc(){fork();}
+        ❖ Invalid example #2:
+             goto line x ...
+             line x: fork();  
+  ### Step 6  
+  Each process must call a maximum of one system function for additional operations other than the wait shown in the figure and requested in the sub-steps. System call results should be kept in the process-based log file (logAll.log), with the information clause (Hint: $ echo) in the top line (Hint: output redirection).
+#### Step 6.1    
+    The parent process creates a folder named logs and a log (logAll.log) file in the directory with the system function containing the relevant command, and prints the date information (Indian: $ date). Then it waits for 1 second for other processes to be created (The purpose of this wait is symbolic and to ensure that other processes occur in an orderly manner according to the specified hierarchy). Then, among the system function that performs the relevant command and the applications running on the operating system at that moment, it prints only the upper process tree with the PID information to the log file under the logs folder and completes the process.
+               Hint: $man pstree $ pstree <options?> <PID>
+               Hint: char mychar[size]; sprintf(mychar, "%s %d", dummytext, dummyint); //hybrid string+int to char* in c
+#### Step 6.2  
+    Child1 (depth1) prints the contents of the log file (the results of previous runs will be visible in the file, the current run will also be printed shortly).
+#### Step 6.3     
+    All other processes except the parent wait 2 seconds after creating the next process according to the depth information (the purpose of these waits is also symbolic and to ensure that the process tree is seen regularly) and completes the process.
+    
+Note: Each of the above-mentioned operations may also have a significance in the ranking. For the correct result, do what is requested in the order in the document.    
