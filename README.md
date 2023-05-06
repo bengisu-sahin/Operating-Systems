@@ -61,4 +61,7 @@ This repository has been opened to learn UNIX commands and understand basic oper
   #### Step 6.3     
   All other processes except the parent wait 2 seconds after creating the next process according to the depth information (the purpose of these waits is also symbolic and to ensure that the process tree is seen regularly) and completes the process.
   ##### Note:  
-  Each of the above-mentioned operations may also have a significance in the ranking. For the correct result, do what is requested in the order in the document.    
+  Each of the above-mentioned operations may also have a significance in the ranking. For the correct result, do what is requested in the order in the document.
+
+## Project 3 - Threads
+### Procedure:
