@@ -65,3 +65,17 @@ This repository has been opened to learn UNIX commands and understand basic oper
 
 ## Project 3 - Threads
 ### Procedure:
+### Step 1
+    The necessary user parameters for the program to run (pathRepository, pathSubmission) should be passed as terminal code arguments (Hint: ./app3 pathRep pathSub). The program stops running and displays an error message if insufficient or excessive arguments are provided.
+
+➢ pathRep (pathRepository): The directory of the server data repository where the backed-up files are located.
+➢ pathSub (pathSubmission): The directory where user operations are performed.
+### Step 2
+    The program has two threads (threadChecker and threadWorker_TimeAndChanges), both of which receive the directory information (pathSub) as an argument.
+
+➢ threadChecker: Checks for changes in the user's upload area at one-second intervals (its only task).
+Hint: last modification date .
+Hint: shared variable 
+➢ threadWorker_TimeAndChanges: Prints the current date and time continuously (for example, at intervals of 100 ms) and, when change information is detected:
+• The current contents of the user's upload directory (pathSub) are displayed on the screen, along with the subfolders and their sizes, and the relevant content information is processed into a .log file in the server path (pathRep).
+• The current contents of the user's upload directory (pathSub) are copied to the server path (pathRep) (ignore details such as whether the file is the same or different, copying all contents is sufficient for this application).
