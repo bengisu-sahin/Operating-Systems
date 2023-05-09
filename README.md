@@ -76,6 +76,9 @@ This repository has been opened to learn UNIX commands and understand basic oper
 ➢ threadChecker: Checks for changes in the user's upload area at one-second intervals (its only task).
 Hint: last modification date .
 Hint: shared variable 
+    
 ➢ threadWorker_TimeAndChanges: Prints the current date and time continuously (for example, at intervals of 100 ms) and, when change information is detected:
+    
 • The current contents of the user's upload directory (pathSub) are displayed on the screen, along with the subfolders and their sizes, and the relevant content information is processed into a .log file in the server path (pathRep).
+    
 • The current contents of the user's upload directory (pathSub) are copied to the server path (pathRep) (ignore details such as whether the file is the same or different, copying all contents is sufficient for this application).
