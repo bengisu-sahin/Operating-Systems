@@ -67,10 +67,12 @@ This repository has been opened to learn UNIX commands and understand basic oper
 ### Procedure:
 ### Step 1
    The necessary user parameters for the program to run (pathRepository, pathSubmission) should be passed as terminal code arguments (Hint: ./app3 pathRep pathSub). The program stops running and displays an error message if insufficient or excessive arguments are provided.
+    
 ➢ pathRep (pathRepository): The directory of the server data repository where the backed-up files are located.
 ➢ pathSub (pathSubmission): The directory where user operations are performed.
 ### Step 2
   The program has two threads (threadChecker and threadWorker_TimeAndChanges), both of which receive the directory information (pathSub) as an argument.
+    
 ➢ threadChecker: Checks for changes in the user's upload area at one-second intervals (its only task).
 Hint: last modification date .
 Hint: shared variable 
