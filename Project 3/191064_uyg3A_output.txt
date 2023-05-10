@@ -1,0 +1,31 @@
+Main Function ->
+pathRep: /home/bengisusahin/191064_Uyg3A/backup
+pathSub: /home/bengisusahin/191064_Uyg3A/download
+
+Printing Time and Changes ->
+pathSub: /home/bengisusahin/191064_Uyg3A/download
+pathLog: 191064_uyg3A_repHist.log
+
+
+Checke ->
+pathChk: /home/bengisusahin/191064_Uyg3A/download
+Last modified time: Sat May  6 16:42:18 2023
+
+total 380
+drwxr-xr-x 2 bengisusahin bengisusahin   4096 May  6 16:42  .
+drwxr-xr-x 4 bengisusahin bengisusahin   4096 May  6 16:42  ..
+-rw-r--r-- 1 bengisusahin bengisusahin    202 May  6 16:35 'Ekran görüntüsü 2023-03-02 212846.png'
+-rw-r--r-- 1 bengisusahin bengisusahin  75961 May  6 16:35 'Ekran görüntüsü_20221224_180345.png'
+-rw-r--r-- 1 bengisusahin bengisusahin 296719 May  6 16:42 'Ekran görüntüsü_20221225_192446.png'
+/home/bengisusahin/191064_Uyg3A/download: -------------------------------------------------
+Last modified time: Sat May  6 16:42:34 2023
+
+total 456
+drwxr-xr-x 2 bengisusahin bengisusahin   4096 May  6 16:42  .
+drwxr-xr-x 4 bengisusahin bengisusahin   4096 May  6 16:42  ..
+-rw-r--r-- 1 bengisusahin bengisusahin    202 May  6 16:35 'Ekran görüntüsü 2023-03-02 212846.png'
+-rw-r--r-- 1 bengisusahin bengisusahin  75961 May  6 16:35 'Ekran görüntüsü_20221224_180345.png'
+-rw-r--r-- 1 bengisusahin bengisusahin 296719 May  6 16:42 'Ekran görüntüsü_20221225_192446.png'
+-rw-r--r-- 1 bengisusahin bengisusahin  76618 May  6 16:42 'Ekran görüntüsü_20230103_183818.png'
+/home/bengisusahin/191064_Uyg3A/download: -------------------------------------------------
+^Ct May  6 16:42:41 +03 2023
