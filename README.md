@@ -82,3 +82,4 @@ Hint: shared variable
 • The current contents of the user's upload directory (pathSub) are displayed on the screen, along with the subfolders and their sizes, and the relevant content information is processed into a .log file in the server path (pathRep).
     
 • The current contents of the user's upload directory (pathSub) are copied to the server path (pathRep) (ignore details such as whether the file is the same or different, copying all contents is sufficient for this application).
+## Project-4 IPC
