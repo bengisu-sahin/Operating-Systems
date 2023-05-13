@@ -83,3 +83,7 @@ Hint: shared variable
     
 • The current contents of the user's upload directory (pathSub) are copied to the server path (pathRep) (ignore details such as whether the file is the same or different, copying all contents is sufficient for this application).
 ## Project-4 IPC
+### Procedure: 
+    Code the desired procedure for communication between the parent process and the child process. The parent process will shape its behavior according to the message sent by the child process.
+### Step 1    
+    The user parameter (pathInputFile) required for the program to run must be sent as terminal argument (Hint: ./app4 pathInp). When missing or extra arguments are entered, the program stops running with an error message. pathInp: The message sent to the parent process is read from this file by the child process.
