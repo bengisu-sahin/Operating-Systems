@@ -1,0 +1,4 @@
+Case A: Child process beklendikten sonra main sonladırılır.    
+Case B: Sleep fonksiyonu sayesinde 4 saniye beklenir sonrasında ise main sonladırılır.
+Case C: Sleep fonksiyonuyla altı saniye beklendikten sonra main sonladırılır.
+Case D: Program direkt olarak sonlandırılır.

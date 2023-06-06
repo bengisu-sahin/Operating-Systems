@@ -1,0 +1,54 @@
+Pipe was created successfully...
+Parent  -> My PID is 9291, PPID is 7155
+Child   -> My PID is 9292, PPID is 9291
+        -->Last updated
+        -> Listening  changes:
+                inp.txt: 152120141064
+Child    -> Parsing and printing Student ID
+Child   ->Slept 4 seconds
+Incoming message from child is 152120141064
+fakulte:15, bolum:21, yil:2014
+CASE A
+
+
+
+Pipe was created successfully...
+Parent  -> My PID is 9329, PPID is 7155
+Child   -> My PID is 9330, PPID is 9329
+        -->Last updated
+                inp.txt: 151320181207
+Child    -> Parsing and printing Student ID
+Child   ->Slept 4 seconds
+        -> Listening  changes:
+Incoming message from child is 151320181207
+fakulte:15, bolum:13, yil:2018
+CASE B
+sleep clock for 4 sec
+
+
+
+Pipe was created successfully...
+Parent  -> My PID is 9600, PPID is 7155
+Child   -> My PID is 9601, PPID is 9600
+        -->Last updated
+        -> Listening  changes:
+                inp.txt: 302120131008
+Child    -> Parsing and printing Student ID
+Child   ->Slept 4 seconds
+Incoming message from child is 302120131008
+fakulte:30, bolum:21, yil:2013
+CASE C
+
+
+
+Pipe was created successfully...
+Parent  -> My PID is 10100, PPID is 7155
+Child   -> My PID is 10101, PPID is 10100
+        -->Last updated
+        -> Listening  changes:
+                inp.txt: 151220041008
+Child    -> Parsing and printing Student ID
+Child   ->Slept 4 seconds
+Incoming message from child is 151220041008
+fakulte:15, bolum:12, yil:2004
+CASE D
