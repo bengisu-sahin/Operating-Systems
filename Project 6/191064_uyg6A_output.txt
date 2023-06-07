@@ -1,0 +1,14 @@
+global değişkenler data segmentinde tutulur, yeni oluşturulan global değişkenler ise heap segmentinde tutulur.
+local değişkenler ise stack segmentinde tutulur.
+yeni oluşturulan local değişkenler, fonksiyon parametreleri ve fonksiyon return bilgileri stack segmentinde tutulur.
+text segmentinden data segmentini çıkarırsak okunabilir veri kısmını elde etmiş oluruz.
+heap segmenti hem yazılır hem de okunur segmenttir. 
+
+getpagesize() fonksiyonu ile pageSize değeri alındı.
+global/local değişkenlerin ve fonksiyonların adres bilgileri "&name" kullanarak alındı.
+pointer olan localVar2 değişkenine localVar1 değişkenin adresi, malloc kullanılarak tip ayarlaması gerçekleştirildikten sonra atandı.
+heap segmenti sonu sbrk(0) ile alındı.
+testAdress fonksiyonuna global değişkenin adresi atandı ve okuma ve yazma işlemi gerçekleştirildi.
+bu işlem preLab dosyasında bulunan kodlar ile yapıldı.
+handler fonksiyonunda istenen jump işlemi setjmp.h küütüphanesindeki longjmp fonksiyonu ile gerçekleştirildi.
+segmentasyon ihlali hatasına karşı koruma işlemi signal.h kütüphanesindeki signal fonksiyonu ile gerçekleştirildi.
