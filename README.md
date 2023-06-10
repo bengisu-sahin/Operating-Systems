@@ -88,3 +88,7 @@ Code the desired procedure for communication between the parent process and the 
 ### Step 1    
 The user parameter (pathInputFile) required for the program to run must be sent as terminal argument (Hint: ./app4 pathInp). When missing or extra arguments are entered, the program stops running with an error message. pathInp: The message sent to the parent process is read from this file by the child process.
 ### Step 2
+
+    
+    
+## Project-5 Process/Thread Synchronization    
